@@ -1,6 +1,7 @@
 # 用Reactnative建立基礎 APP
 ## 程式架構
-簡單將Menu與兩個分頁另外拆成其他檔案寫以便維護，而Menu、頁面顯示、Tab則各自組成Component，避免將所有的元件都寫進Render內導致程式凌亂、維護不便
+主要架構為Header、Menu、FirstPage、SecondPage、Tab，
+簡單將Menu與FirstPage、SecondPage另外拆成獨立JS檔以便維護，而Tab則獨立成Component，避免將所有的元件都寫進Render內導致程式凌亂、維護不便
 ## 各項目進行的時間
 ### React Native 環境建置與程式研究
 此項目花費時間約兩天半，將先前淺學的React.js經過爬文學習吸收內化
