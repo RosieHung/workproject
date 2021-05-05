@@ -56,7 +56,7 @@ function firstScreenStack({navigation}) {
         name="FirstPage"
         component={Tabs}
         options={{
-          title: 'First Page', //Set Header Title
+          title: 'WorkPorject', //Set Header Title
           headerLeft: () => (
             <NavigationDrawerStructure
               navigationProps={navigation}
@@ -87,7 +87,7 @@ function App() {
         }}
         drawerContent={(props) => <CustomSidebarMenu {...props} />}>
         <Drawer.Screen
-          name="FirstPage"
+          name="WorkPorject"
           options={{drawerLabel: 'Project For WasaTeam'}}
           component={firstScreenStack}
         />
